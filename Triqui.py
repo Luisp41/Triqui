@@ -6,6 +6,7 @@ def triqui(tablero, simbolo):
         [1, 5, 9], [3, 5, 7]
     ]
     tablero = [" "] + tablero
+    # Itera sobre cada combinación ganadora posible para verificar si hay un ganador
     for combo in combinaciones_ganadoras:
         a, b, c = combinacion
         if tablero[a] == tablero[b] == tablero[c] and tablero[a] != " ":
