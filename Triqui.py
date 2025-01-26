@@ -6,7 +6,7 @@ def triqui(tablero, simbolo):
         [1, 5, 9], [3, 5, 7]
     ]
     tablero = [" "] + tablero
-    for combinacion in combinaciones_ganadoras:
+    for combo in combinaciones_ganadoras:
         a, b, c = combinacion
         if tablero[a] == tablero[b] == tablero[c] and tablero[a] != " ":
             return True
