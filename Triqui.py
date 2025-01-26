@@ -16,4 +16,4 @@ tablero = [
     [" ", "O", "X"]
 ]
 tablero_planificado = [celda for fila in tablero for celda in fila]
-print(triqui(tablero_planificado))
+print(triqui(tablero_planificado, "x"))
