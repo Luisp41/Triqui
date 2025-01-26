@@ -17,5 +17,6 @@ tablero = [
     [" ", "X", "O"],
     [" ", "O", "X"]
 ]
+# Inicializa el tablero en formato plano para facilitar las verificaciones
 tablero_planificado = [celda for fila in tablero for celda in fila]
 print(triqui(tablero_planificado, "x"))
