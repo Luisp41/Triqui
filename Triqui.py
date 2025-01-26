@@ -1,3 +1,4 @@
+# Esta función verifica si hay una combinación ganadora en el tablero de triqui
 def triqui(tablero, simbolo):
     combinaciones_ganadoras = [
         [1, 2, 3], [4, 5, 6], [7, 8, 9],
